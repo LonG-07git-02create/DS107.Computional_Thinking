@@ -3,21 +3,20 @@
 __pycache__/
 *.pyc
 .ipynb_checkpoints/
-
-# Ẩn môi trường ảo
-venv/
+# 1. Ẩn môi trường ảo Python
 .venv/
+venv/
 env/
 
-# Ẩn cấu hình IDE
+# 2. Ẩn cấu hình IDE
 .vscode/
+.idea/
 
-# Ẩn các file rác của Python
-__pycache__/
-*.pyc
-# Ẩn các file dữ liệu
-venv/
-.vscode/
-__pycache__/
+# 3. Ẩn các file dữ liệu nặng (để không bị lỗi push)
 *.xlsx
 *.csv
+*.json
+
+# 4. Ẩn bộ nhớ tạm của Python
+__pycache__/
+*.pyc
