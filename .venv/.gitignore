@@ -1,22 +1,35 @@
 # Created by venv; see https://docs.python.org/3/library/venv.html
-*.venv/
+# =========================
+# Python
+# =========================
 __pycache__/
 *.pyc
-.ipynb_checkpoints/
-# 1. Ẩn môi trường ảo Python
+
+# Virtual Environment
 .venv/
 venv/
 env/
 
-# 2. Ẩn cấu hình IDE
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# IDE / Editor
 .vscode/
 .idea/
 
-# 3. Ẩn các file dữ liệu nặng (để không bị lỗi push)
-*.xlsx
-*.csv
-*.json
+# =========================
+# Data files (tuỳ chọn)
+# =========================
 
-# 4. Ẩn bộ nhớ tạm của Python
-__pycache__/
-*.pyc
+# ❌ Nếu bạn KHÔNG muốn push data lớn
+# *.csv
+# *.xlsx
+# *.json
+
+# ✅ Nếu bạn MUỐN giữ dataset thì KHÔNG được comment dòng trên
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
