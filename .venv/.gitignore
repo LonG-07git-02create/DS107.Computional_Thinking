@@ -4,3 +4,14 @@ __pycache__/
 *.pyc
 .ipynb_checkpoints/
 
+# Ẩn môi trường ảo
+venv/
+.venv/
+env/
+
+# Ẩn cấu hình IDE
+.vscode/
+
+# Ẩn các file rác của Python
+__pycache__/
+*.pyc
