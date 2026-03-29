@@ -15,3 +15,9 @@ env/
 # Ẩn các file rác của Python
 __pycache__/
 *.pyc
+# Ẩn các file dữ liệu
+venv/
+.vscode/
+__pycache__/
+*.xlsx
+*.csv
